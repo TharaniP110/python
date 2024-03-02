@@ -3,6 +3,7 @@ def multiply(n):
         return 1
     else:
         return (n*multiply(n-1))
+        
 n=int(input())
 result=multiply(n)
 print(result)
