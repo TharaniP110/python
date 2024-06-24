@@ -6,7 +6,6 @@ def swap_case(s):
         else:
             k+=(s[i].upper())+""
     return k
-
 if __name__ == '__main__':
     s = input()
     result = swap_case(s)
